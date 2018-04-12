@@ -14,4 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo liquid_sanders-userdebug
+add_lunch_combo elixir_sanders-userdebug
+
