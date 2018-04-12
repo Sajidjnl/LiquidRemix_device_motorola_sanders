@@ -325,8 +325,13 @@
          NOTE ! - Enable for devices that have a fast response
          proximity sensor (ideally < 300ms) -->
     <bool name="config_proximityCheckOnWake">true</bool>
+    <add-resource type="bool" name="config_proximityCheckOnWake"></add-resource>
+
     <integer name="config_proximityCheckTimeout">100</integer>
+    <add-resource type="integer" name="config_proximityCheckTimeout"></add-resource>
+
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+    <add-resource type="bool" name="proximityCheckOnWakeEnableByDefault"></add-resource>
 
     <!-- Should proximity check also affect fingerprint reader
     <bool name="config_proximityCheckOnFingerprintWake">true</bool>-->
